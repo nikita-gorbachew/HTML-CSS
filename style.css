@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.url_head {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    color: red ;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    background-color:black;
+}
+
+.header {
+    background: black;
+    height: 60px;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.url_head:hover {
+    font-size: 20px;
+    background-color:rgba(14, 160, 14, 0.517);
+}
+
+.image {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black
+}
