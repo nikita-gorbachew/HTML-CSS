@@ -12,11 +12,17 @@
     height: 45px;
     text-align: center;
     background-color:black;
+    border-radius: 5px;
 }
 
 .header {
-    background: black;
+    background-color: black;
     height: 60px;
+}
+
+.footer {
+    height: 100px;
+    margin: 0 auto;
 }
 
 .container {
@@ -35,6 +41,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .url_head:hover {
     font-size: 20px;
     background-color:rgba(14, 160, 14, 0.517);
@@ -87,6 +94,7 @@
     line-height: 80px;
 
 }
+
 .paragraph {
     font-style: normal;
     font-weight: 300;
@@ -95,3 +103,6 @@
     color: #7D7987
 }
 
+input {
+    padding-left: 5px;
+}
