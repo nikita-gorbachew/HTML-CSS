@@ -45,3 +45,53 @@
     height: 300px;
     border: 1px solid black
 }
+
+.menu-link {
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    line-height: 50px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content-menu {
+    background-color: orange;
+    flex: 1;
+}
+
+.menu-link:hover {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    border: 1px solid black;
+}
+
+.headers {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.headers-second {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+
+}
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
