@@ -58,6 +58,9 @@
     text-decoration: none;
 }
 
+.url-menu:hover, .url-menu-orange:hover {
+    outline: 3px solid rgb(114, 114, 114);
+}
 .main {
     margin-top: 96px;
     display: flex;
