@@ -17,6 +17,7 @@ body {
 }
 
 .first-page {
+
     padding-bottom: 113px;
     background-color: $headcolor;
 
@@ -31,6 +32,10 @@ body {
         padding: 40px;
         display: block;
         text-decoration: none;
+
+        &_blue {
+            background-color: rgb(48, 7, 230);
+        }
 
         &_hover:hover {
             background-color: $buttoncolor;

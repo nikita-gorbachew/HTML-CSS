@@ -33,6 +33,9 @@ body {
   display: block;
   text-decoration: none;
 }
+.first-page__header-link_blue {
+  background-color: rgb(48, 7, 230);
+}
 .first-page__header-link_hover:hover {
   background-color: #3A68B8;
   border-radius: 5px;
