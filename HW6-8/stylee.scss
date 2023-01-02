@@ -51,7 +51,7 @@ body {
 
 .flex-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -156,6 +156,12 @@ body {
 
 img {
     display: flex;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+
 }
 
 .item {
@@ -308,6 +314,7 @@ img {
 
     .first-section-pic {
         margin-top: 50px;
+        width: 70%;
     }
 
     .next {
@@ -340,9 +347,7 @@ img {
         align-items: center;
     }
 
-    .fourth-section {
-        padding-left: 40px;
-    }
+    .fourth-section {}
 
     .fourth-section-txt {
         padding-bottom: 64px;
@@ -391,6 +396,7 @@ img {
 
     .first-section-pic {
         margin-top: 50px;
+        width: 70%;
     }
 
     .button-flex {
