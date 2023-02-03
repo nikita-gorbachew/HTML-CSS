@@ -1,0 +1,15 @@
+.test {
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/left.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/right.png);
+}
